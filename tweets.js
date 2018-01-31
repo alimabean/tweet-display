@@ -9,9 +9,9 @@ const texts = data.filter(
 		textNode.appendChild(userHandle)
 		textNode.setAttribute("id", "tweet")
 		textNode.appendChild(document.createTextNode(tweet["text"]))
-		userPhoto = document.createElement("a")
-		userPhoto.setAttribute("class", "userPhoto")
-		userPhoto.setAttribute()
+		// userPhoto = document.createElement("a")
+		// userPhoto.setAttribute("class", "userPhoto")
+		// userPhoto.setAttribute()
 		return textNode
 })
 
